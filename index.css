@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    height:50px;
+    
+    background-color:white; 
+    color:green;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo{
+    height:50px;
+    width:100px;
+    background-image:url("https://img.magnific.com/premium-vector/beauty-vector-flowers-design-logo_1948-20316.jpg");
+    background-size: cover;
+}
+.items{
+    height:30px;
+    
+    font-size:20px;
+    font-weight: 150;
+    align-self:flex-end;
+    text-align: center;
+    border:2px solid white;
+
+}
+
+.items:hover{
+    border:2px solid #f5427e;
+}
+.nav2{
+    height:40px;
+
+    background-color: #f5427e;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-align: left;
+    
+    
+}
+.search i{
+    color:aliceblue;
+    
+    height:22px;
+    text-align: center;
+;
+
+}
+.searchbar{
+    margin-left: 110px;
+
+    height:20px;
+    width:800px;
+    color:green;
+    
+}
+.searchbar:hover{
+    border:2px solid green;
+}
+.hero{
+    height:500px;
+    
+    background-image: url(https://www.shutterstock.com/image-vector/spring-sale-50-website-hero-260nw-2738344183.jpg);
+    background-size: cover;
+}
+.heading{
+    height:50px;
+    background-color: rgba(0,128,0,0.294);
+    color:#f5427e;
+    text-align: center;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{ text-align: center;
+    display:flex;
+    justify-content: center;
+    height:350px;
+    width:300px;
+    background-color:pink;
+   margin-top:15px; 
+    
+}
+.box-img{
+    
+    height:250px;
+    width:100%;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:10px;
+    
+
+}
+.box-content{
+    margin-left: 1rem;;
+    margin-right: 1rem;
+
+}
+.footer{
+    margin-top: 15px;
+
+}
+.foot-panel1{
+    background-color:rgba(0, 128, 0, 0.274);
+    color:#f5427e;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.foot-panel2{
+    background-color:#f5427e63;
+    color:rgb(0, 128, 0);
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top:20px;
+}
+ul a{
+    display:block;
+    font-size:0.8rem;
+    color:rgba(0, 128, 0, 0.461);
+}
+.foot-panel3{
+    background-color:white;
+    border-top: 0.5px solid #f5427e;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height:50px;
+    width:100px;
+    background-image:url("https://img.magnific.com/premium-vector/beauty-vector-flowers-design-logo_1948-20316.jpg");
+    background-size: cover;
+}
+
+.foot-panel4{
+    background-color:#f5427eaa;
+    color:rgba(0, 128, 0, 0.839);
+
+}
+.pages{
+    font-size:0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size:0.68rem;
+    padding-top: 5px;
+    text-align: center;
+}
+
